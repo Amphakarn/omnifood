@@ -12,13 +12,15 @@ Orange color: #e67e22
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 /* use clearfix class to clear the float
@@ -39,7 +41,7 @@ html {
 
 .row {
   max-width: 1140px;
-  margin: 0 auto; /* margin-top and margin-bottom are 0, margin-left and margin-right are auto */
+  margin: 0 auto;
 }
 
 section {
@@ -191,7 +193,8 @@ input[type="submit"]:active {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/resources/css/img/hero.jpg);
+    url(/resources/img/hero.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/hero.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -293,10 +296,14 @@ header {
   background-color: #f4f4f4;
 }
 
+.steps-box {
+  margin-top: 30px;
+}
+
+/* styling for cell phone image */
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
-  margin-top: 30px;
 }
 
 /* using :last-of-type instead of :last-child (doesn't work) */
@@ -322,8 +329,8 @@ header {
   border: 2px solid #e67e22;
   display: inline-block;
   border-radius: 50%;
-  height: 55px;
-  width: 55px;
+  height: 54px;
+  width: 54px;
   text-align: center;
   padding: 5px;
   float: left;
@@ -360,7 +367,8 @@ header {
 /* --------------------------------------------------- */
 .section-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/resources/css/img/back-customers.jpg);
+    url(/resources/img/back-customers.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/back-customers.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
@@ -495,7 +503,7 @@ input[type="checkbox"] {
 footer {
   background: #333;
   padding: 50px;
-  font-size: 80%;
+  font-size: 90%;
 }
 
 .footer-nav {
