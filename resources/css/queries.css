@@ -13,7 +13,7 @@
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
   body {
-    font-size: 18pxl;
+    font-size: 18px;
   }
 
   section {
@@ -126,7 +126,7 @@
   }
 
   .btn-app img {
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .works-step div {
@@ -138,7 +138,7 @@
   }
 
   .works-step {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .works-step:last-of-type {
