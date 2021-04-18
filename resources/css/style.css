@@ -274,6 +274,19 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile navi */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon .hamburger-icon {
+  font-size: 250%;
+  color: #fff;
+}
+
 /* Sticky navi */
 .sticky {
   position: fixed;
