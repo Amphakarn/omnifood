@@ -70,4 +70,15 @@ $(document).ready(function () {
     },
     { offset: "50%" }
   );
+
+  /* Mobile nav - Toggle menu and icon */
+  $(".js--nav-icon").click(function () {
+    let nav = $(".js--main-nav");
+    nav.slideToggle(200);
+    if ($("#mobile-menu-icon").attr("name") === "menu") {
+      $("#mobile-menu-icon").attr("name", "close");
+    } else {
+      $("#mobile-menu-icon").attr("name", "menu");
+    }
+  });
 });
