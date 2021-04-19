@@ -25,6 +25,38 @@
     />
 
     <title>Omnifood</title>
+
+    <!-- favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/resources/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/resources/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/resources/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/resources/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/resources/favicons/safari-pinned-tab.svg"
+      color="#e67e22"
+    />
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#e67e22" />
+    <meta
+      name="msapplication-config"
+      content="/resources/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
   </head>
 
   <body>
@@ -41,7 +73,7 @@
             alt="Omnifood Black logo"
             class="logo-black"
           />
-          <ul class="main-nav">
+          <ul class="main-nav js--main-nav">
             <li>
               <a href="#features">Food delivery</a>
             </li>
@@ -55,8 +87,12 @@
               <a href="#plan">Sign up</a>
             </li>
           </ul>
-          <a class="mobile-nav-icon"
-            ><ion-icon name="menu-outline" class="hamburger-icon"></ion-icon
+          <a class="mobile-nav-icon js--nav-icon"
+            ><ion-icon
+              name="menu"
+              class="hamburger-icon"
+              id="mobile-menu-icon"
+            ></ion-icon
           ></a>
         </div>
       </nav>
