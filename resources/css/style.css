@@ -199,8 +199,8 @@ input[type="submit"]:active {
 
 header {
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/resources/img/hero.jpg),
-    url(/home/bee/lighthouse/omnifood/resources/img/hero.jpg);
+    url(/resources/img/hero-min.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/hero-min.jpg);
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -208,11 +208,11 @@ header {
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.7))
     ),
-    url(/resources/img/hero.jpg),
-    url(/home/bee/lighthouse/omnifood/resources/img/hero.jpg);
+    url(/resources/img/hero-min.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/hero-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/resources/img/hero.jpg),
-    url(/home/bee/lighthouse/omnifood/resources/img/hero.jpg);
+    url(/resources/img/hero-min.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/hero-min.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -458,8 +458,8 @@ header {
 /* --------------------------------------------------- */
 .section-testimonials {
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/resources/img/back-customers.jpg),
-    url(/home/bee/lighthouse/omnifood/resources/img/back-customers.jpg);
+    url(/resources/img/back-customers-min.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/back-customers-min.jpg);
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -467,11 +467,11 @@ header {
       from(rgba(0, 0, 0, 0.8)),
       to(rgba(0, 0, 0, 0.8))
     ),
-    url(/resources/img/back-customers.jpg),
-    url(/home/bee/lighthouse/omnifood/resources/img/back-customers.jpg);
+    url(/resources/img/back-customers-min.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/back-customers-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/resources/img/back-customers.jpg),
-    url(/home/bee/lighthouse/omnifood/resources/img/back-customers.jpg);
+    url(/resources/img/back-customers-min.jpg),
+    url(/home/bee/lighthouse/omnifood/resources/img/back-customers-min.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
