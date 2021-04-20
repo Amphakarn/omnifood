@@ -601,6 +601,27 @@ input[type="checkbox"] {
   outline: none;
 }
 
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  color: rgb(42, 42, 42);
+}
+
+.success {
+  background-color: rgba(38, 191, 68, 0.9);
+}
+
+.error {
+  background-color: rgba(226, 44, 44, 0.9);
+}
+
 /* --------------------------------------------------- */
 /* FOOTER */
 /* --------------------------------------------------- */

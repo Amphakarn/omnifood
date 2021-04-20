@@ -528,12 +528,25 @@
       </div>
     </section>
 
-    <section class="section-form">
+    <section class="section-form" id="form">
       <div class="row">
         <h2>We're happy to hear from you</h2>
       </div>
       <div class="row">
-        <form method="POST" action="#" class="contact-form">
+        <!-- TESTING CONNECT TO mailer-new.php -->
+        <form method="POST" action="mailer-new.php" class="contact-form">
+          <!-- <div class="row">
+            <?php 
+              if($_GET['success'] == 1) {
+                echo "<div class=\"form-messages success\">Thank you! Your message has been sent.</div>";
+              }
+              if($_GET['success'] == -1) {
+                echo "<div class=\"form-messages error\">Oops! Something went wrong. Please try again!</div>";
+              }
+            ?>
+          </div> -->
+          <!-- END -->
+
           <div class="row">
             <div class="col span-1-of-3">
               <label for="name">Name</label>
@@ -570,7 +583,7 @@
               <select name="find-us" id="find-us">
                 <option value="friends" selected>Friends</option>
                 <option value="search">Search engine</option>
-                <option value="ad">Advertisement</option>
+                <option value="ads">Advertisement</option>
                 <option value="other">Other</option>
               </select>
             </div>
